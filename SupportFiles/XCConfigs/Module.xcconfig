@@ -1,0 +1,7 @@
+#include "Base.xcconfig"
+
+CODE_SIGNING_REQUIRED   = NO              // 코드 서명 요구사항 비활성화
+CODE_SIGNING_ALLOWED    = NO               // 코드 서명 허용하지 않음
+CODE_SIGN_STYLE         = Manual
+DEVELOPMENT_TEAM        = $(DEVELOPMENT_IDENTIFIER_PREFIX)
+
